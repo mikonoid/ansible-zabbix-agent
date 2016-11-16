@@ -1,0 +1,14 @@
+---
+# Zabbix server to connect to
+zabbix_agent_server: 192.168.99.100
+# Zabbix port in the server to connect to
+zabbix_agent_server_port: 10051
+# HostMetadata value in the agent config
+zabbix_agent_metadata: system.uname
+# Prefix to be added to the Hostname value in the agent config
+zabbix_agent_hostname_prefix: ""
+
+#for epel install
+epel_repo_url: "https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm"
+epel_repo_gpg_key_url: "/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-{{ ansible_distribution_major_version }}"
+epel_repofile_path: "/etc/yum.repos.d/epel.repo"

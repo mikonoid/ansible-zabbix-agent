@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Mike Ivanov
+  description: Install Zabbix agent
+  license: Apache
+  min_ansible_version: 1.9
+  platforms:
+  - name: CentOS
+    versions:
+    - 6
+    - 7  
+  - name: Ubuntu
+    versions:
+    - trusty
+  galaxy_tags:
+    - zabbix-agent
+    - zabbix
+dependencies: []
