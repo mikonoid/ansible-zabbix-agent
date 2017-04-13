@@ -1,7 +1,6 @@
 Zabbix-agent Role 
 =================
 
-Install Zabbix agent in active mode. This role has been specifically developed to integrate resources in the monitoring system of the INDIGO project.
 
 Role Variables
 --------------
@@ -25,7 +24,7 @@ This an example of how to install the zabbix agent in active mode to the server 
 
     - hosts: servers
       roles:
-         - { role: indigo-dc.zabbix-agent, zabbix_agent_server: server.com }
+         - { role: zabbix-agent, zabbix_agent_server: server.com }
 
 License
 -------
